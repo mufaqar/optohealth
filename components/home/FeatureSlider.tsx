@@ -29,7 +29,7 @@ const PrevArrow = ({ onClick }: any) => (
 const features = [
   {
     id: 1,
-    icon: <FaLock size={40} className="text-gray-700" />, 
+    icon: <FaLock size={40} className="text-[#004361]" />, 
     title: "Clinically-Validated Triage",
     description:
       "All health information and guidance in our triage system has been through a clinically governed and rigorous quality assurance review process.",
@@ -38,7 +38,7 @@ const features = [
   },
   {
     id: 2,
-    icon: <FaMedal size={40} className="text-[#00476b]" />,
+    icon: <FaMedal size={40} className="text-[#004361]" />,
     title: "Secure",
     description:
       "Our framework uses encryption to keep patients' details and interactions private. We are fully compliant with Data Protection & GDPR.",
@@ -47,7 +47,7 @@ const features = [
   },
   {
     id: 3,
-    icon: <FaUserCheck size={40} className="text-gray-700" />, 
+    icon: <FaUserCheck size={40} className="text-[#004361]" />, 
     title: "Trusted Workforce",
     description:
       "We have partnered with the most reputable names in the business to ensure excellence in care for all patients.",
@@ -57,7 +57,7 @@ const features = [
  
   {
     id: 4,
-    icon: <FaLock size={40} className="text-gray-700" />,
+    icon: <FaLock size={40} className="text-[#004361]" />,
     title: "Continuous Improvement",
     description:
       "We regularly update our systems based on the latest clinical guidelines and user feedback for optimal performance.",
@@ -94,7 +94,7 @@ export default function FeatureSlider() {
                 <div className="bg-[#ff4838] border border-white  rounded-2xl text-center px-6 pt-16 pb-10 h-full flex flex-col justify-start items-center shadow-md min-h-[280px]"> 
                   
                   <div 
-                    className={`  ${feature.iconBgColor} border-2 ${feature.iconBorderColor} rounded-full w-20 h-20 flex items-center justify-center shadow-md `} 
+                    className={`  ${feature.iconBgColor}  border-6 border-[#004361] rounded-full w-20 h-20 flex items-center justify-center shadow-md `} 
                   >
                     {feature.icon}
                   </div>
