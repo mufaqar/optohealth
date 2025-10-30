@@ -26,23 +26,23 @@ export default function Solutions() {
             </h2>
 
             {/* Solution Items */}
-            <div className="space-y-4 text-[#004361]">
+            <div className="space-y-3 text-[#004361]">
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-lg">
+                <h3 className="text-[#34B4FC] font-semibold text-md">
                   Faster Care
                 </h3>
                 <p>Bid farewell to long waiting times.</p>
               </div>
 
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-lg">
+                <h3 className="text-[#34B4FC] font-semibold text-md">
                   Smarter Triage
                 </h3>
                 <p>Benefit from intelligent risk assessment.</p>
               </div>
 
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-lg">
+                <h3 className="text-[#34B4FC] font-semibold text-md">
                   Safer Outcomes
                 </h3>
                 <p>
@@ -52,7 +52,7 @@ export default function Solutions() {
               </div>
 
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-lg">
+                <h3 className="text-[#34B4FC] font-semibold text-md">
                   Cost-efficiency
                 </h3>
                 <p>
@@ -62,7 +62,7 @@ export default function Solutions() {
               </div>
 
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-lg">
+                <h3 className="text-[#34B4FC] font-semibold text-md">
                   Quick Implementation
                 </h3>
                 <p>8 weeks from contract to go live.</p>

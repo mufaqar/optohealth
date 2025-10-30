@@ -7,6 +7,7 @@ import Video from "@/components/home/video";
 import FeatureSlider from "@/components/home/FeatureSlider";
 import Issuses from "@/components/home/Issuses";
 import Solutions from "@/components/home/Solutions";
+import Footer from "@/components/Footer";
 
 
 
@@ -21,6 +22,7 @@ export default function Home() {
       <FeatureSlider />
       <Issuses />
       <Solutions />
+      <Footer  />
     
 
     </>
