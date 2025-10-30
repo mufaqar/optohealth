@@ -5,7 +5,7 @@ import { FaTwitter, FaLinkedin } from 'react-icons/fa'; // For social media icon
 
 function Footer() {
     return (
-        <footer className="bg-white text-[#0a2e4e] py-10 ">
+        <footer className="bg-white text-primary py-10 ">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-4">
 
                 {/* Column 1: Links and Copyright */}
@@ -33,7 +33,7 @@ function Footer() {
                     {/* Logo */}
                     <div className="w-28 h-auto">
                         <Image
-                            src="/images/Opto_Logo1 (1).png"
+                            src="/images/logo.png"
                             alt="Opto Health Logo"
                             width={500}
                             height={500}
@@ -44,10 +44,10 @@ function Footer() {
                     {/* Follow Us */}
                     <p className="text-sm md:text-base font-semibold hover:text-theme_red">Follow Us</p>
                     <div className="flex space-x-3 -mt-4">
-                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-[#0a2e4e] hover:text-theme_red transition-colors">
+                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-theme_red transition-colors">
                             <FaTwitter size={35} />
                         </Link>
-                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-[#0a2e4e] hover:text-theme_red transition-colors">
+                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-theme_red transition-colors">
                             <FaLinkedin size={35} />
                         </Link>
                     </div>
@@ -63,11 +63,11 @@ function Footer() {
 
                 {/* Column 3: Address and Email */}
                 <div className="flex flex-col items-center md:items-end text-center md:text-right space-y-2 ">
-                    <p className="font-semibold hover:text-theme_red text-[#0a2e4e]">Opto Health Ltd.</p>
+                    <p className="font-semibold hover:text-theme_red text-primary">Opto Health Ltd.</p>
                     <p className='hover:text-theme_red font-semibold'>71-75 Shelton St,</p>
                     <p className='hover:text-theme_red font-semibold'>London,</p>
                     <p className='hover:text-theme_red font-semibold'>WC2H 9JQ.</p>
-                    <Link href="mailto:info@optohealth.co.uk" className="mt-6 text-[#0a2e4e] hover:underline hover:text-theme_red font-semibold">
+                    <Link href="mailto:info@optohealth.co.uk" className="mt-6 text-primary hover:underline hover:text-theme_red font-semibold">
                         info@optohealth.co.uk
                     </Link>
                 </div>
