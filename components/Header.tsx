@@ -12,15 +12,15 @@ type MenuItem = {
 };
 
 const menuItems: MenuItem[] = [
-  { label: "What is Opto", href: "/What is Opto" },
-  { label: "About us", href: "/About us" },
-  { label: "Blog", href: "/Blog" },
-  { label: "Contact", href: "/Contact" },
+  { label: "What is Opto", href: "/" },
+  { label: "About us", href: "/about-us" },
+  { label: "Blog", href: "/blog" },
+  { label: "Contact", href: "#contact" },
 ];
 
 const Header = () => {
   const [mblMenu, setMblMenu] = useState(false);
-  const pathname = usePathname()
+  const pathname = usePathname();
 
   return (
     <header className="py-3.5 relative z-50 bg-white shadow-xl">
@@ -28,7 +28,12 @@ const Header = () => {
         {/* Logo */}
         <div className="">
           <Link href="/">
-            <Image src="/images/Opto_Logo1 (1).png" alt="logo" width={80} height={50} />
+            <Image
+              src="/images/Opto_Logo1 (1).png"
+              alt="logo"
+              width={80}
+              height={50}
+            />
           </Link>
         </div>
 
@@ -37,7 +42,9 @@ const Header = () => {
           {/* Mobile menu button */}
           <button
             onClick={() => setMblMenu(!mblMenu)}
-            className={`${pathname === "/" ? "text-[#004361] " : "text-title"} text-4xl md:hidden inline-flex items-center justify-center`}
+            className={`${
+              pathname === "/" ? "text-[#004361] " : "text-title"
+            } text-4xl md:hidden inline-flex items-center justify-center`}
           >
             {mblMenu ? <IoMdClose /> : <FaBars />}
           </button>
@@ -56,7 +63,11 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href="#"
-                    className={`${pathname === "/" ? "text-[#004361] hover:text-[#34b4fc] " : "text-title hover:text-primary"} text-md font-bold md:p-0 transition-all duration-300 ease-in-out`}
+                    className={`${
+                      pathname === "/"
+                        ? "text-[#004361] hover:text-[#34b4fc] "
+                        : "text-title hover:text-primary"
+                    } text-md font-bold md:p-0 transition-all duration-300 ease-in-out`}
                   >
                     {item.label}
                   </Link>
@@ -65,8 +76,6 @@ const Header = () => {
             </ul>
           </nav>
         </div>
-
-       
       </div>
     </header>
   );
