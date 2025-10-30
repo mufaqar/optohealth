@@ -21,7 +21,7 @@ const FlipBox: React.FC<FlipBoxProps> = ({ data }) => {
         <div className="group relative w-full h-60 [perspective:1000px]">
             <div className="relative h-full w-full transition-transform duration-700 [transform-style:preserve-3d] group-hover:[transform:rotateY(-180deg)]">
                 {/* Front Side */}
-                <div className={`absolute inset-0 flex flex-col items-center justify-center rounded-xl text-white text-center text-lg font-semibold shadow-xl [backface-visibility:hidden] ${data.bgColor}`} >
+                <div className={`${data.bgColor} absolute inset-0 flex flex-col items-center justify-center rounded-xl [backface-visibility:hidden]`} >
                     <Image
                         src={data.Icon}
                         alt={data.title}
@@ -32,7 +32,7 @@ const FlipBox: React.FC<FlipBoxProps> = ({ data }) => {
                 </div>
 
                 {/* Back Side */}
-                <div className={`${data.bgColor} absolute inset-0 flex flex-col items-center justify-center rounded-xl bg-gray-900 [transform:rotateY(180deg)] [backface-visibility:hidden]`}>
+                <div className={`${data.bgColor} absolute inset-0 flex flex-col items-center justify-center rounded-xl [transform:rotateY(180deg)] [backface-visibility:hidden]`}>
                     <h3 className="md:text-2xl text-xl font-bold text-white">{data.title}</h3>
                     <p className="md:text-2xl text-xl font-bold text-white">{data.time}</p>
                     <p className="md:text-2xl text-xl font-bold text-white">{data.desc}</p>
