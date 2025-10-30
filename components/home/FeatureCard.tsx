@@ -28,17 +28,17 @@ const features = [
 
 export default function FeatureCard() {
   return (
-    <section className="py-12 md:py-20 bg-white">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 bg-white">
+      <div className="container mx-auto px-4">
         {/* Grid layout */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 text-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
           {features.map((feature) => (
             <div
               key={feature.id}
               className="flex flex-col items-center"
             >
               {/* Image */}
-              <div className="w-full max-w-[280px] sm:max-w-[320px] mb-6">
+              <div className="w-full mb-6">
                 <Image
                   src={feature.image}
                   alt={feature.title}
@@ -49,12 +49,12 @@ export default function FeatureCard() {
               </div>
 
               {/* Title */}
-              <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold text-[#00476b] mb-3 max-w-xs">
+              <h3 className="md:text-[32px] md:leading-none text-2xl font-bold text-primary text-center mb-6">
                 {feature.title}
               </h3>
 
               {/* Description */}
-              <p className="text-[#00476b] text-sm sm:text-base leading-relaxed max-w-xs">
+              <p className="text-base font-medium text-primary text-center max-w-[274px] mx-auto">
                 {feature.description}
               </p>
             </div>

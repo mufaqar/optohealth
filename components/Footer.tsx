@@ -10,19 +10,19 @@ function Footer() {
 
                 {/* Column 1: Links and Copyright */}
                 <div className="flex flex-col items-center md:items-start text-center md:text-left space-y-2">
-                    <Link href="/terms" className="hover:underline hover:text-[#ff4838] font-semibold">
+                    <Link href="/terms" className="hover:underline hover:text-theme_red font-semibold">
                         Terms
                     </Link>
-                    <Link href="/company-policies" className="hover:underline hover:text-[#ff4838] font-semibold">
+                    <Link href="/company-policies" className="hover:underline hover:text-theme_red font-semibold">
                         Company Policies
                     </Link>
-                    <Link href="/patient-client-council" className="hover:underline hover:text-[#ff4838] font-semibold">
+                    <Link href="/patient-client-council" className="hover:underline hover:text-theme_red font-semibold">
                         Patient Client Council
                     </Link>
-                    <Link href="/cookie-policy" className="hover:underline hover:text-[#ff4838] font-semibold">
+                    <Link href="/cookie-policy" className="hover:underline hover:text-theme_red font-semibold">
                         Cookie Policy
                     </Link>
-                    <Link href="/privacy" className="hover:underline hover:text-[#ff4838] font-semibold">
+                    <Link href="/privacy" className="hover:underline hover:text-theme_red font-semibold">
                         Privacy
                     </Link>
                     <p className="mt-6 text-sm md:text-base">© Opto Health Ltd.</p>
@@ -42,12 +42,12 @@ function Footer() {
                     </div>
 
                     {/* Follow Us */}
-                    <p className="text-sm md:text-base font-semibold hover:text-[#ff4838]">Follow Us</p>
+                    <p className="text-sm md:text-base font-semibold hover:text-theme_red">Follow Us</p>
                     <div className="flex space-x-3 -mt-4">
-                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-[#0a2e4e] hover:text-[#ff4838] transition-colors">
+                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-[#0a2e4e] hover:text-theme_red transition-colors">
                             <FaTwitter size={35} />
                         </Link>
-                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-[#0a2e4e] hover:text-[#ff4838] transition-colors">
+                        <Link href="#" target="_blank" rel="noopener noreferrer" className="text-[#0a2e4e] hover:text-theme_red transition-colors">
                             <FaLinkedin size={35} />
                         </Link>
                     </div>
@@ -63,11 +63,11 @@ function Footer() {
 
                 {/* Column 3: Address and Email */}
                 <div className="flex flex-col items-center md:items-end text-center md:text-right space-y-2 ">
-                    <p className="font-semibold hover:text-[#ff4838] text-[#0a2e4e]">Opto Health Ltd.</p>
-                    <p className='hover:text-[#ff4838] font-semibold'>71-75 Shelton St,</p>
-                    <p className='hover:text-[#ff4838] font-semibold'>London,</p>
-                    <p className='hover:text-[#ff4838] font-semibold'>WC2H 9JQ.</p>
-                    <Link href="mailto:info@optohealth.co.uk" className="mt-6 text-[#0a2e4e] hover:underline hover:text-[#ff4838] font-semibold">
+                    <p className="font-semibold hover:text-theme_red text-[#0a2e4e]">Opto Health Ltd.</p>
+                    <p className='hover:text-theme_red font-semibold'>71-75 Shelton St,</p>
+                    <p className='hover:text-theme_red font-semibold'>London,</p>
+                    <p className='hover:text-theme_red font-semibold'>WC2H 9JQ.</p>
+                    <Link href="mailto:info@optohealth.co.uk" className="mt-6 text-[#0a2e4e] hover:underline hover:text-theme_red font-semibold">
                         info@optohealth.co.uk
                     </Link>
                 </div>

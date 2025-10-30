@@ -21,51 +21,51 @@ export default function Solutions() {
 
           {/* Right: Text */}
           <div>
-            <h2 className="text-4xl md:text-5xl text-[#34B4FC] font-bold mb-6">
+            <h2 className='md:text-5xl text-3xl font-bold text-secondary mb-6'>
               The Solutions
             </h2>
 
             {/* Solution Items */}
-            <div className="space-y-3 text-[#004361]">
+            <div className="space-y-3 text-primary">
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-md">
+                <h3 className="text-base font-bold text-secondary">
                   Faster Care
                 </h3>
-                <p>Bid farewell to long waiting times.</p>
+                <p className="text-base font-semibold text-primary max-w-[446px]">Bid farewell to long waiting times.</p>
               </div>
 
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-md">
+                <h3 className="text-base font-bold text-secondary">
                   Smarter Triage
                 </h3>
-                <p>Benefit from intelligent risk assessment.</p>
+                <p className="text-base font-semibold text-primary max-w-[446px]">Benefit from intelligent risk assessment.</p>
               </div>
 
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-md">
+                <h3 className="text-base font-bold text-secondary">
                   Safer Outcomes
                 </h3>
-                <p>
+                <p className="text-base font-semibold text-primary max-w-[446px]">
                   Rest assured with the enhanced capabilities within Opto’s
                   product.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-md">
+                <h3 className="text-base font-bold text-secondary">
                   Cost-efficiency
                 </h3>
-                <p>
+                <p className="text-base font-semibold text-primary max-w-[446px]">
                   Opto Health benefits patients and healthcare institutions by
                   optimising resource allocation.
                 </p>
               </div>
 
               <div>
-                <h3 className="text-[#34B4FC] font-semibold text-md">
+                <h3 className="text-base font-bold text-secondary">
                   Quick Implementation
                 </h3>
-                <p>8 weeks from contract to go live.</p>
+                <p className="text-base font-semibold text-primary max-w-[446px]">8 weeks from contract to go live.</p>
               </div>
             </div>
           </div>
