@@ -23,3 +23,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.team_content p{
+  @apply text-lg font-normal text-primary text-center mb-5;
+}

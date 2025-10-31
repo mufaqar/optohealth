@@ -16,7 +16,6 @@ const menuItems: MenuItem[] = [
   { label: "What is Opto", href: "/" },
   { label: "About us", href: "/about-us" },
   { label: "Blog", href: "/blog" },
-  { label: "Contact", href: "#contact" },
 ];
 
 const Header = () => {
@@ -64,7 +63,7 @@ const Header = () => {
                 {menuItems.map((item, index) => (
                   <li key={index}>
                     <Link
-                      href="#"
+                      href={item?.href}
                       className={`${pathname === item?.href
                         ? "text-secondary"
                         : ""
