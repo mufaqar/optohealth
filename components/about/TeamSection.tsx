@@ -17,7 +17,7 @@ export default function TeamSection({ custom_Class = "", data, title }: Props) {
     const [activeMobile, setActiveMobile] = useState<number | null>(null);
 
     return (
-        <section className="bg-theme_red py-16 transition-all duration-500">
+        <section className="bg-theme_red py-16 transition-all duration-500 md:px-0 px-4">
             <div
                 className={`${custom_Class} container mx-auto px-4 flex flex-col md:flex-row md:items-start items-center md:gap-16 gap-10`}
             >

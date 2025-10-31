@@ -13,9 +13,7 @@ export default function AboutUs() {
             </section>
             <TeamSection custom_Class="md:flex-row" data={teamMembers} title="The Team" />
             <TeamSection custom_Class="md:flex-row" data={advisor} title="Our Advisors" />
-            <section className='md:px-0 px-4'>
-                <TeamSection custom_Class="md:flex-row-reverse border-2 border-white rounded-[20px] md:p-10 p-6" data={experts} title="Clinical experts" />
-            </section>
+            <TeamSection custom_Class="md:flex-row-reverse border-2 border-white rounded-[20px] md:p-10 p-6" data={experts} title="Clinical experts" />
         </main>
     )
 }
