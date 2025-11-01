@@ -18,7 +18,6 @@ export const metadata: Metadata = {
   title: "OptoHealth",
   description: "Simple, smart, connected",
 };
-
 export default function RootLayout({
   children,
 }: Readonly<{
